@@ -20,7 +20,7 @@ public class Download2File {
     void testDownload1() {
         System.out.println("test");
         String res = new String();
-        res = Download2String(" https://ccn.killcovid2021.com//m3u8/528144/528144.m3u8");
+        res = Download2String(" http://不可描述的URL链接");
         System.out.println(res);
     }
     //测试2
@@ -28,7 +28,7 @@ public class Download2File {
     {
         //下载文件并使用二进制读写保存
         System.out.println("test Write byte[] File");
-        String url = "https://ccn.killcovid2021.com//m3u8/528144/5281440.ts";
+        String url = "http://不可描述的URL链接";
         InputStream is = Download2InputStream(url);
         if (WriteFile4InputStream("d:\\234.ts",is))
         {
